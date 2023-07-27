@@ -9,6 +9,7 @@ Layout
 
 .flexed {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row {
@@ -17,4 +18,8 @@ Layout
 
 .column {
   flex-direction: column;
+}
+
+.fifty {
+  flex-basis: 50%;
 }
