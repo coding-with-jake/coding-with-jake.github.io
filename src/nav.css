@@ -1,0 +1,12 @@
+/*
+Navigation
+*/
+nav {
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-end;
+}

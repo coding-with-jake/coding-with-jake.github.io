@@ -1,0 +1,1 @@
+const navBar=document.querySelector("nav");console.log(navBar),navBar&&window.addEventListener("scroll",(function(){window.scrollY>0?navBar.classList.add("shadow"):navBar.classList.remove("shadow")}));

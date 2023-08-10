@@ -1,6 +1,7 @@
 /*
 Table Of Contents
 1. Layout
+2. Effetcs
 */
 
 /*
@@ -22,4 +23,20 @@ Layout
 
 .fifty {
   flex-basis: 50%;
+}
+
+.quarter {
+  flex-basis: 25%;
+}
+
+.third {
+  flex-basis: 33%;
+}
+
+/*
+Effects
+*/
+
+.shadow {
+  box-shadow: 0 10px 5px rgba( 0, 0, 0, 0.25 );
 }
